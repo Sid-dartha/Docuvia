@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# FAISS index (large file, regenerated at runtime)
+*.index
+*.faiss
+
+# Uploaded PDFs (user data, don't commit)
+uploads/
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
